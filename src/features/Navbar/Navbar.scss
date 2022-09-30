@@ -1,0 +1,43 @@
+@import '@/shared/scss/variables';
+@import '@/shared/scss/mixins';
+
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar {
+    @include flex(row);
+    justify-content: space-between;
+    position: fixed;
+    width: min(100rem, 100%);
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 2rem 0;
+    max-height: 8.5rem;
+    background-color: 	rgb(249, 246, 238);
+}
+
+.navbar__logo {
+    max-height: 4.5rem;
+}
+
+.navigation__links {
+    @include flex(row);
+    gap: 5rem;
+
+}
+
+.link {
+    color: rgb(0, 0, 0);
+    font-size: 2.8rem;
+    font-weight: bold;
+    font-family: $fontAccent;
+}

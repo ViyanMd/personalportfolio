@@ -1,0 +1,13 @@
+@import "@/shared/scss/mixins";
+
+#root {
+    width: min(100rem, 100%);
+}
+
+body {
+    @include flex(row);
+    justify-content: center;
+    background-color: 	rgb(249, 246, 238);
+    padding: 0 2rem;
+}
+
