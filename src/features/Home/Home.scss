@@ -3,17 +3,25 @@
 
 .home {
     @include flex(row);
-    height: 100vh;
+    min-height: 100vh;
     background-image: url('../../assets/images/pngegg.png');
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: right center;
+
+    @include mobile-large {
+        background-position: top;
+    }
 }
 
 .home__content {
     @include flex(column);
     width: 50%;
     justify-content: center;
+
+    @include mobile-large {
+        width: 100%;
+    }
 }
 
 .content__header {

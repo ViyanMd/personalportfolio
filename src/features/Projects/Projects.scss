@@ -27,6 +27,11 @@ a {
     height: 100%;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
+
+    @include mobile-large {
+        grid-template-columns:  repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
 }
 
 .project {
@@ -51,7 +56,7 @@ a {
 }
 
 .decor__coin {
-    max-height: 8rem;
+    max-height: 10rem;
 }
 
 

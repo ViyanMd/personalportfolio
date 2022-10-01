@@ -23,6 +23,11 @@ ul, li {
     padding: 2rem 0;
     max-height: 8.5rem;
     background-color: 	rgb(249, 246, 238);
+
+    @include mobile-large {
+        position: static;
+        justify-content: center;
+    }
 }
 
 .navbar__logo {
@@ -32,6 +37,10 @@ ul, li {
 .navigation__links {
     @include flex(row);
     gap: 5rem;
+
+    @include mobile-large {
+        display: none;
+    }
 
 }
 
