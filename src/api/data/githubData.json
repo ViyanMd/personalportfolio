@@ -1,0 +1,52 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "Markdown Editor",
+            "description": "I like this project a lot. It's simple, but also had taught me a lot about different ways of parsing and transoforming texts.",
+            "stack": ["React", "Local Storage","JSX", "SCSS", "react-markdown"],
+            "link": "https://viyanmd.github.io/browser-markdown-editor/",
+            "repo": "https://github.com/ViyanMd/browser-markdown-editor"
+        },
+        {
+            "id": 2,
+            "name": "POD Landing page",
+            "description": "This is one of the first landing pages I've done. The main thing I've learnt from it - was regex and testing/comparing text to a pattern.",
+            "stack":["HTML", "CSS", "Vanilla JS"],
+            "link": "https://viyanmd.github.io/podrequest_landing-page/",
+            "repo": "https://github.com/ViyanMd/podrequest_landing-page"
+        },
+        {
+            "id": 3,
+            "name": "Todo App",
+            "description": "There's no way this list would be complete without Todo App, so here you go. With this project I've learn a lot about rendering lists. Great experience.",
+            "stack":["React", "JSX", "CSS", "Weather API"],
+            "link": "https://viyanmd.github.io/todoapp/",
+            "repo":"https://github.com/ViyanMd/todoapp"
+        },
+        {
+            "id": 4,
+            "name": "Crowdfunding LP",
+            "description": "This landing page is awesome! A lot of animations, trasitions, modal windows. Feels like a real deal. It has some things I'd like to make better or add. But overall it's pretty solid",
+            "stack": ["HTML", "SCSS", "Vanilla JS"],
+            "link": "https://viyanmd.github.io/crowdfunding-lp/",
+            "repo": "https://github.com/ViyanMd/crowdfunding-lp"
+        },
+        {
+            "id": 5,
+            "name": "Splitter Tip",
+            "description": "Everyone does regular calculators when learning JS. I've decided to make it a little more interesting, so now you have a calculator for tips.",
+            "stack":["HTML", "CSS", "Vanilla JS"],
+            "link": "https://viyanmd.github.io/splitter-tip-calculator/",
+            "repo": "https://github.com/ViyanMd/splitter-tip-calculator"
+        },
+        {
+            "id": 6,
+            "name": "Comfy Online Store",
+            "description": "Great project. I've learn a lot about routing, architecture and data manipulation. Main goal was to create an online-store-like functioning project.",
+            "stack":["HTML", "SCSS", "Vanilla JS", "Fetch API", "Dummy JSON API", "Routing"],
+            "link": "https://viyanmd.github.io/faq-card_elements/",
+            "repo":"https://github.com/ViyanMd/comfy-online-store"
+        }
+    ]
+}

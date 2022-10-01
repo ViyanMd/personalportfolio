@@ -1,0 +1,63 @@
+@import '@/shared/scss/variables';
+@import '@/shared/scss/mixins';
+
+a {
+    color: rgb(70, 232, 55);
+}
+
+.projects {
+    @include flex(column);
+    width: 100%;
+    font-family: $fontAccent;
+    font-size: 2rem;
+    gap: 6rem;
+
+}
+
+.projects__header {
+    width: 100%;
+    align-self: center;
+    font-size: 3rem;
+}
+
+.projects__list {
+    display: grid;
+    gap: 3rem;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.project {
+    @include flex(column);
+    gap: 3rem;
+    align-items: center;
+}
+
+.project__desc {
+    @include flex(column);
+    justify-content: space-between;
+}
+
+.project__desc_name {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.project__stack {
+    justify-self: flex-end;
+}
+
+.decor__coin {
+    max-height: 8rem;
+}
+
+
+.projects__github {
+    font-size: 3rem;
+    text-align: center;
+}
+
+

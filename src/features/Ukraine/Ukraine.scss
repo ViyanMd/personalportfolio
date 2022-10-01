@@ -1,0 +1,42 @@
+@import '@/shared/scss/variables';
+@import '@/shared/scss/mixins';
+
+.ukraine {
+    @include flex(row);
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.ukraine__content {
+    text-align: center;
+    width: 100%;
+
+}
+
+.ukraine__content_links {
+    @include flex(column);
+    gap: 5rem;
+}
+
+.content__links_desc {
+    font-family: $fontAccent;
+    font-size: 3rem;
+}
+
+.slava__blue {
+    color: rgb(11, 109, 184);
+}
+
+.ukraine__yellow {
+    color: rgb(245, 229, 6);
+}
+
+.help__links {
+    columns: 2;
+    & > * {
+        font-family: $fontAccent;
+        font-size: 3rem;
+        text-align: center;
+    }
+}
